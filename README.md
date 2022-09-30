@@ -39,7 +39,6 @@ Change the command below setting:
 
 ```
 docker build -t gitlab-migration ./
-docker run --rm -it -v ./src:/usr/local/bin/src gitlab-migration:latest
 docker run --rm -it --env FROM_PROJECT_ID=change-me --env FROM_HOST=change-me --env FROM_TOKEN=change-me --env TO_PROJECT_ID=change-me --env TO_HOST=change-me --env TO_TOKEN=change-me gitlab-migration:latest
 ```
 
