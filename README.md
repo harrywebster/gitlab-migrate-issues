@@ -1,4 +1,4 @@
-# gitlab-migrate-issues
+# Gitlab migrate issues and labels
 
 This app will assist with the migration of issues from one GitLab server to another. The export feature in GitLab CE doesn't restore the labels or if it's closed or not.
 
